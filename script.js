@@ -31,7 +31,7 @@ var movies = [
     }
 ];
 
-<<<<<<< HEAD
+
 
 var MovieTitle = React.createClass({
 	propTypes: {
@@ -122,7 +122,6 @@ var movieElements = React.createElement(MovieElements, {
 	movies: movies
 });
 ReactDOM.render(movieElements, document.getElementById("app"));
-=======
 
 
 var moviesElement = movies.map(function (movie) {
@@ -143,4 +142,4 @@ var element = React.createElement('div', {},
 )
 
 ReactDOM.render(element, document.getElementById('app'));
->>>>>>> 9d161fa4b5bde47e2f93d022f118c0cf066f24e1
+
